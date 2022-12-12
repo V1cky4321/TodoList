@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  
+}
+body > h1{
+  color: orangered;
+  font-size: 80px;
+}
+.TodoA{
+  padding: 20px;
+  color:white;
+}
+.TodoC{
+ 
+  font-size: 50px;
+  padding-top: 20px;
+  padding: 40px;
+  
+}
+
+.complete{
+  text-decoration:line-through;
+}
+.Nocomplete{
+  cursor: pointer;
+ 
+ 
+  
+  
+}
+.butt > button{
+  font-size: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  background-color: transparent;
+
+
+
+}
+.butt > button:hover{
+  background-color:white;
+  color: orangered;
+}
+.form1{
+  justify-content: space-between;
+ 
+  
+ 
+}
+
+ 
+  
+
+.form1 > input{
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 6px;
+  
+  
+}
+.form1 > button{
+  font-size: 20px;
+  background-color: orangered;
+  border-radius: 4px;
+}
+
+::-webkit-input-placeholder {
+  color:black;
+}
